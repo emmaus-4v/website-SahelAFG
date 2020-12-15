@@ -1,0 +1,120 @@
+/* Basislayout */
+
+html, body {
+    height: 100%;
+    padding: 0;
+    background-color: rgb(16, 201, 124);  
+    
+    color: #000000;
+    font: Verdana, Arial, Sans-Serif;
+}
+
+
+main {
+    margin: 0 auto;
+    width: 700px;
+    position: relative;
+}
+
+
+article {
+    text-align: justify;
+}
+
+
+header {
+    color: rgb(190, 21, 21);
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+/* specifieke stijlen */
+@keyframes slide {
+    0%{
+        right:-1000px
+    }
+    100%{
+        right:0px
+    }
+    
+}
+
+.slide{
+    position: relative;
+    animation: slide 3s;
+}
+
+img {
+    width: 330px;
+    float: right;
+    margin-left: 15px;
+}
+
+
+img.tweevogels{
+    width: 420px;
+}
+
+img.scooterboy{
+    height: 180px;
+    float: left; 
+    margin-right: 15px;
+    border-width: 10px;
+
+}
+
+.smalltext {
+    font-size: 0.7em;
+}
+
+.tekstras {
+    clear: both;
+}
+
+a {
+    color: skyblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* navigatiebalk */
+nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    background-color: #119432;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: rgb(1, 2, 1);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: rgb(21, 187, 71);
+}
+
+nav li a.active {
+    background-color: rgb(14, 117, 40);
+}
+
+
+
