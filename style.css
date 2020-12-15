@@ -67,6 +67,10 @@ img.scooterboy{
     margin-right: 15px;
     border-width: 10px;
 
+
+img.zweefLinks {
+    float: left;
+    margin-right: 15px;
 }
 
 .smalltext {
