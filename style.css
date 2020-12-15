@@ -45,6 +45,28 @@ footer {
     
 }
 
+@keyframes kleurveranderen{
+    0% {
+        color: red;
+    }
+    25% {
+        color: yellow;
+    }
+    50% {
+        color: green;
+    }
+    75% {
+        color: blue;
+    }
+    100% {
+        color: purple;
+    }
+}
+
+.kleurveranderen {
+    animation: kleurveranderen 20s infinite;
+}
+
 .slide{
     position: relative;
     animation: slide 3s;
@@ -68,10 +90,7 @@ img.scooterboy{
     border-width: 10px;
 }
 
-.zweefLinks{
-    float: left;
-    margin-right: 15px;
-}
+
 
 .smalltext {
     font-size: 0.7em;
